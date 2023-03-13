@@ -35,7 +35,7 @@ TIME=$(date +'%Y-%m-%d %H:%M:%S')
 RAMMS=$(free -m | awk 'NR==2 {print $2}')
 KEY="5973249718:AAEQEcWIjxwTMylzckC1letVvxwSYRRNepU"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
-GITHUB_CMD="https://github.com/arismaramar/gif/raw/"
+GITHUB_CMD="https://github.com/tridebleng/gif/raw/"
 NAMECOM=$(curl -sS https://raw.githubusercontent.com/tridebleng/permission/main/ip| grep $MYIP | awk '{print $2}')
 OS=$(cat /etc/os-release | grep -w PRETTY_NAME | head -n1 | sed 's/=//g' | sed 's/"//g' | sed 's/PRETTY_NAME//g')
 dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
@@ -68,7 +68,7 @@ function is_root() {
 }
 judge() {
     if [[ 0 -eq $? ]]; then
-        print_ok "$1 Complete... | thx to ${YELLOW}ANGGUN${FONT}"
+        print_ok "$1 Complete... | thx to ${YELLOW}ARTA${FONT}"
         sleep 1
     fi
 }
