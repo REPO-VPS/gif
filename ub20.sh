@@ -3,10 +3,10 @@ clear
 echo "# //===================================================="
 echo "# //	System Request:Debian 9+/Ubuntu 18.04+/20.04"
 echo "# //	email: arismar.amar@gmai@.com"
-echo "# //      telegram: https://t.me/amantubilah"
+echo "# //      telegram: https://t.me/Arta1ove"
 echo "# //===================================================="
 sleep 3
-# // FONT color configuration | MAIN DEV BHOIKFOST YAHYA recode ANGGUN SC AIO
+# // FONT color configuration | MAIN DEV BHOIKFOST YAHYA recode ARTA M
 Green="\e[92;1m"
 RED="\033[31m"
 YELLOW="\033[33m"
@@ -521,7 +521,7 @@ apete_eee() {
         clear
         echo ""
         red "Permission Denied! Please Buy Licence"
-        green "Contact telegram https://t.me/amantubilah"
+        green "Contact telegram https://t.me/Arta1ove"
         sleep 8
         exit 0
     fi
